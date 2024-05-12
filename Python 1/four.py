@@ -4,7 +4,20 @@
 # print(range(3))
 
 
-name_list = ['Luigi','Mario',"Toad"]
+# name_list = ['Luigi','Mario',"Toad"]
 
-for name in name_list:
-    print(name)
+# for i in name_list:
+#     print(i)
+
+
+# i = 0
+
+# while i < 5:
+#     i = i + 1
+#     print(i)
+
+while True:
+    user_input = input('Enter something >>')
+    if user_input == '0':
+        print('We are done here.')
+        break
