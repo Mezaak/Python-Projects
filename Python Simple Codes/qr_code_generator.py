@@ -1,7 +1,7 @@
 import qrcode
 from PIL import Image
 
-# Veri
+# Bu linki qr code a çevireceğiz
 data = "https://www.openai.com/"
 
 # QR kodu oluştur
