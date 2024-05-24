@@ -21,7 +21,7 @@ img = qr.make_image(fill_color="black", back_color="white")
 # PIL görüntüsünü numpy dizisine dönüştür
 img_np = img.getdata()
 
-# Renkleri değiştir
+# Renkleri değiştirmek için bu alanı düzenle
 new_colors = [(210, 255, 0) if pixel == 0 else (0, 255, 0) for pixel in img_np]
 img.putdata(new_colors)
 
